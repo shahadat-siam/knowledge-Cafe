@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://i.postimg.cc/qRnRh0CJ/jess-bailey-q10-VITr-VYUM-unsplash.jpg",
+      "title": "The Great Adventure",
+      "author": "Jane Smith",
+      "author_img": "https://i.postimg.cc/rmBL4r23/darius-bashar-vzf-HHas-UPk0-unsplash.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": "12",
+      "hashtags": ["adventure", "fiction", "bestseller"]
+    },
+    {
+      "id": "2",
+      "cover": "https://i.postimg.cc/2jKc8D7b/dose-media-b-U6-Jyh-SI6zo-unsplash.jpg",
+      "title": "Mystery at Midnight",
+      "author": "Sam Johnson",
+      "author_img": "https://i.postimg.cc/rmBL4r23/darius-bashar-vzf-HHas-UPk0-unsplash.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": "43",
+      "hashtags": ["mystery", "detective", "thriller"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.postimg.cc/FKzGQCkg/clark-tibbs-oq-Stl2-L5ox-I-unsplash.jpg",
+      "title": "Science World",
+      "author": "Emily Davis",
+      "author_img": "https://i.postimg.cc/rmBL4r23/darius-bashar-vzf-HHas-UPk0-unsplash.jpg",
+      "posted_date": "2024-03-09",
+      "reading_time": "16",
+      "hashtags": ["science", "education", "nonfiction"]
+    },
+    {
+      "id": "4",
+      "cover": "https://i.postimg.cc/d18CMG6j/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
+      "title": "Fantasy Kingdom",
+      "author": "Mark Taylor",
+      "author_img": "https://i.postimg.cc/rmBL4r23/darius-bashar-vzf-HHas-UPk0-unsplash.jpg",
+      "posted_date": "2024-03-08",
+      "reading_time": "34",
+      "hashtags": ["fantasy", "magic", "epic"]
+    },
+    {
+      "id": "5",
+      "cover": "https://i.postimg.cc/qvTMYWYS/annie-spratt-OWq8w3-BYMFY-unsplash.jpg",
+      "title": "Cooking Delights",
+      "author": "Sarah Lee",
+      "author_img": "https://i.postimg.cc/rmBL4r23/darius-bashar-vzf-HHas-UPk0-unsplash.jpg",
+      "posted_date": "2024-03-07",
+      "reading_time": "23",
+      "hashtags": ["cooking", "recipes", "food"]
+    }
+  ]
+  
