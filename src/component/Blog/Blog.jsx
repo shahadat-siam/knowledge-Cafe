@@ -15,7 +15,7 @@ const Blog = ({blog,hundleAddToBookmsrk}) => {
                 </div>
                 <div className='space-x-2'>
                     <span>{reading_time} min read</span>
-                    <button onClick={hundleAddToBookmsrk}><BsBookmarks></BsBookmarks></button>
+                    <button onClick={() => hundleAddToBookmsrk(blog)}><BsBookmarks></BsBookmarks></button>
                 </div>
             </div>
             <h2 className='text-4xl'>{title}</h2>
@@ -28,8 +28,9 @@ const Blog = ({blog,hundleAddToBookmsrk}) => {
     );
 };
 
-Blog.PropTypes = {
+Blog.propTypes = {
     Blog: PropTypes.object.isRequired
+    // hundleAddToBookmsrk: PropTypes.func
 }
 
 export default Blog;
