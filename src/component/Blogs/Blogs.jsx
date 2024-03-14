@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types';
  
-const Blogs = ({hundleAddToBookmsrk}) => {
+const Blogs = ({hundleAddToBookmsrk,hundleReadingTime }) => {
     const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
@@ -12,10 +12,10 @@ const Blogs = ({hundleAddToBookmsrk}) => {
     },[])
 
     return (
-        <div className="md:w-2/3">
-            <h2>Blogs {blogs.length}</h2>
+        <div className="md:w-2/3 mt-10">
+            <h2 className="font-bold text-4xl">Blogs {blogs.length}</h2>
             {
-                blogs.map(blog => <Blog key={blog.id} hundleAddToBookmsrk={hundleAddToBookmsrk} blog={blog}></Blog>)
+                blogs.map(blog => <Blog key={blog.id} hundleReadingTime ={hundleReadingTime} hundleAddToBookmsrk={hundleAddToBookmsrk} blog={blog}></Blog>)
             }
         </div>
     );
